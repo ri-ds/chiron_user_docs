@@ -1,19 +1,25 @@
 # Chiron User Documentation
 
-## how to setup documentation editing environment
+## how to edit this documentation
 
-## how to edit documentation
+You need Obsidian and any tool that can run git commands.
 
-1. Make changes to user_docs_vault subdirectory using Obsidian.
-2. Use the Webpage HTML Export Obsidian plugin to publish your site to the user_docs_build subdirectory.
-3. Commit your changes to the main branch.
+1. clone this repo on your computer
+```shell
+git clone https://github.com/jmeinken/chiron_user_docs.git
+```
+
+2. Set up an Obsidian vault on subdirectory `user_docs_vault`.
+3. Use Obsidian to edit markdown files.
+4. Use the community plugin "Webpage HTML Export" to publish the site.
+    - Select every directory except `meta` and all its subdirectories.
+    - Build output should go to `docs` subdirectory.
+5. You can check the build in a web browser from the file `docs/index.html`.
+6. once you're satisfied with it, commit to the main branch.
 ```shell
 git add . -A
 git commit -m "describe what you changed"
 git push origin main
 ```
 
-4. Publish your changes to the live website. It usually takes several minutes to update.
-```shell
-git subtree push --prefix user_docs_build origin gh-pages
-```
+7. The live website is tied to the `docs` directory in the main branch and will automatically update.
