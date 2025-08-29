@@ -1,3 +1,7 @@
+---
+title: Home
+---
+
 # About Chiron
 
 Chiron is a data exploration/reporting tool for research data with a strong focus on human-subject/patient data and longitudinal data. It has a built-in web interface that can be used directly, or an API for integrating Chiron features into existing applications.
