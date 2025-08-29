@@ -57,12 +57,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "meta/publishing_info.md",
+                "file": "data API/Accessing the data API from R.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "publishing_info"
+              "title": "Accessing the data API from R"
             }
           }
         ],
@@ -217,11 +217,12 @@
   },
   "active": "c3886486bc22ae25",
   "lastOpenFiles": [
+    "data API/Accessing the data API from R.md",
+    "meta/planning_example_scripts.md",
+    "meta/publishing_info.md",
     "data API/Accessing the data API from any environment.md",
     "data API/Accessing the data API from SAS.md",
-    "data API/Accessing the data API from R.md",
     "index.md",
-    "meta/publishing_info.md",
     "meta/removed_notes.md",
     "meta/~$IMPRINT Web Portal.pptx",
     "meta/IMPRINT Web Portal 1.pptx",
